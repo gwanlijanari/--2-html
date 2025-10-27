@@ -1,0 +1,124 @@
+body {
+  background-color: hwb(0 34% 66%);
+}
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+h1 {
+  color: white;
+}
+#base {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+}
+#base > div {
+  flex-shrink: 0;
+}
+.invisible {
+  height: 49px;
+  width: 49px;
+}
+.block {
+  height: 49px;
+  width: 49px;
+}
+.long-block {
+  height: 49px;
+  width: 100px;
+}
+.big-block {
+  height: 100px;
+  width: 100px;
+}
+#red > div {
+  background-color: red;
+}
+#red {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#orange > div {
+  background-color: orange;
+}
+#orange {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#yellow > div {
+  background-color: yellow;
+}
+#yellow {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+#green > div {
+  background-color: green;
+}
+#green {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#aqua > div {
+  background-color: aqua;
+}
+#aqua {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#blue > div {
+  background-color: blue;
+}
+#blue {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#sireneviy > .big-block,
+.block,
+.long-block {
+  background-color: plum;
+}
+#sireneviy {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#purple > div {
+  background-color: purple;
+}
+#purple {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+#pink > div {
+  background-color: pink;
+}
+#pink {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  gap: 2px;
+}
