@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.hero {
+    display: flex;
+	background-color: #77edd9;
+	color: #013d33;
+	min-height: 100vh;
+	text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    
+	margin: 0 0 0.5rem;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+}

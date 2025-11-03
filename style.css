@@ -28,11 +28,13 @@ h1 {
 }
 .block {
   height: 49px;
-  width: 49px;
+  /* width: 49px; */
+  flex-basis: calc(50% - 1px);
 }
 .long-block {
   height: 49px;
-  width: 100px;
+  flex-basis: 100%;
+  /* width: 100px; */
 }
 .big-block {
   height: 100px;
@@ -55,6 +57,13 @@ h1 {
   width: 250px;
   flex-wrap: wrap;
   gap: 2px;
+}
+#orange .block {
+  flex-basis: calc(25% - 1.5px);
+}
+#orange .long-block{
+  flex-basis: calc(50% - 1px);
+
 }
 #yellow > div {
   background-color: yellow;
